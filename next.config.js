@@ -1,9 +1,5 @@
-
-const isProd = process.env.NODE_ENV === 'production';
-
 /** @type {import('next').NextConfig} */
 module.exports = {
-  assetPrefix: isProd ? '/typesquare-next' : '',
   reactStrictMode: true,
   webpack(config) {
     config.module.rules.push({

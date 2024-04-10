@@ -19,7 +19,6 @@ export default function IndexPage() {
   }, [count]);
 
   function render() {
-    console.log(count + 1);
     setCount(count + 1);
   }
 

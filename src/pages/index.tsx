@@ -15,7 +15,7 @@ export default function IndexPage() {
   }, []);
 
   useEffect(() => {
-    setTimeout(render, 100);
+    setTimeout(render, 1000);
   }, [count]);
 
   function render() {
